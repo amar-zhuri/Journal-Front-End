@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mental Health Journal</h1>
+        <div class="entry-form">
+            <div class="form-group">
+                <label for="journal-entry">Write your thoughts:</label>
+                <div class="question-mark" id="question-mark">Don't know what to write?</div>
+                <textarea id="journal-entry" placeholder="What's on your mind?"></textarea>
+                <div class="mood-changes" id="mood-changes">
+                    <h1>Don't know what to write?</h1>
+                    <p>You can answer these basic mental health concerns</p>
+                    <h2>Mood Changes:</h2>
+
+                    <li>Persistent sadness, hopelessness, or feeling "empty"</li>
+                    <li>Irritability, agitation, or anger outbursts</li>
+                    <li>Mood swings or sudden shifts in emotions</li>
+
+
+                    <h2>Anxiety Symptoms:</h2>
+                    <li>Excessive worry or fear</li>
+                    <li>Feeling restless or on edge</li>
+                    <li>Panic attacks, including rapid heartbeat, sweating, trembling, or difficulty breathing</li>
+                    </ul>
+                    <h2>Cognitive Symptoms:</h2>
+
+                    <li>Difficulty concentrating or focusing</li>
+                    <li>Racing thoughts or inability to slow down mental activity
+                    </li>
+                    <li>Memory problems or forgetfulness
+                    </li>
+                    <h2>Behavioral Changes:</h2>
+                    <li>Changes in appetite or weight (significant increase or decrease)</li>
+                    <li>Sleep disturbances, such as insomnia or oversleeping</li>
+                    <li>Avoidance of social interactions or withdrawal from activities you once enjoyed
+                    </li>
+                    <h2>Physical Symptoms:</h2>
+                    <li>Unexplained aches and pains
+                    </li>
+                    <li>Fatigue or lack of energy, even after rest
+                    </li>
+                    <li>Digestive problems or headaches without a clear medical cause
+                    </li>
+
+                    <h2>Substance Use:</h2>
+                    <li>Increased use of alcohol, drugs, or other substances as a coping mechanism
+                    </li>
+                    <li>Difficulty cutting down or controlling substance use despite negative consequences
+                    </li>
+
+                    <h2>Relationship Issues:</h2>
+                    <li>Strained relationships with family, friends, or coworkers
+                    </li>
+                    <li>Difficulty communicating or connecting with others
+                    </li>
+                    <li>Feeling isolated or misunderstood
+                    </li>
+
+                    <h2>Suicidal Thoughts or Behaviors:</h2>
+                    <li>Thoughts of self-harm or suicide, even if they're fleeting
+                    </li>
+                    <li>Making plans or attempts to harm yourself
+                    </li>
+                    <li>Feeling like life is not worth living or that others would be better off without you
+                    </li>
+
+                    <h2>Psychotic Symptoms (in severe cases):</h2>
+                    <li>Hallucinations (seeing or hearing things that aren't there)
+                    </li>
+                    <li>Delusions (strongly held false beliefs)
+                    </li>
+                    <li>Disorganized thinking or speech
+                    </li>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button id="save-btn">Save Entry</button>
+                <button id="clear-btn">Clear</button>
+                <button id="clear-all-btn">Clear All Entries</button>
+            </div>
+        </div>
+        <div class="past-entries">
+            <h2>Past Entries</h2>
+            <ul id="past-entries-list"></ul>
+        </div>
+        <div class="confirmation">
+            <span class="confirmation-text" id="confirmation-text"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
